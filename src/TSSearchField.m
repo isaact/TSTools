@@ -9,9 +9,6 @@
 
 #import "TSSearchField.h"
 
-void useTSSearchField(){
-  //Do nothing, just used for linking in categories
-}
 @implementation TSSearchField
 
 - (BOOL)performKeyEquivalent:(NSEvent *)event {

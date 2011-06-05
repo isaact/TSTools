@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
 
-void useTSTextField();
 @interface TSTextField : NSTextField {
 
 }

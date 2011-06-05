@@ -6,12 +6,15 @@
 //  Copyright 2010 Ticklespace.com All rights reserved.
 //
 
-#import "TSFoundationTools.h"
-#import "TSAppKitTools.h"
+#import "TSTextField.h"
+#import "TSSearchField.h"
+#import "TSFileReader.h"
+#import "NSDate+TSTools.h"
+#import "NSString+TSTools.h"
 
 void useTSToolsOSX(){
-  useTSFoundationTools();
-  useTSAppKitTools();
+  useTSDateTools();
+  useTSStringTools();  
   //Do nothing, just used for linking in categories
 }
 

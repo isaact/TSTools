@@ -8,9 +8,6 @@
 
 #import "TSFileReader.h"
 
-void useTSTSFileReader(){
-  // Do nothing, just for linking
-}
 @interface NSData (DDAdditions)
 
 - (NSRange) rangeOfData_dd:(NSData *)dataToFind;

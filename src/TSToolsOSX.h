@@ -7,6 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TSTextField.h"
+#import "TSSearchField.h"
+#import "TSFileReader.h"
+#import "NSDate+TSTools.h"
+#import "NSString+TSTools.h"
 
 void useTSToolsOSX();
 @interface NSObject (TSToolsOSX)

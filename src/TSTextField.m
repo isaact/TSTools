@@ -7,9 +7,7 @@
 //
 
 #import "TSTextField.h"
-void useTSTextField(){
-  //Do nothing, just used for linking in categories
-}
+
 @implementation TSTextField
 
 - (BOOL)performKeyEquivalent:(NSEvent *)event {

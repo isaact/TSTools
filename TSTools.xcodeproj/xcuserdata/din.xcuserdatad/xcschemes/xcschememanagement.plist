@@ -18,9 +18,21 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TSToolsiOSSimulator.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>36C007EA139C17E9008E9E46</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>36DA4C2E139BE59500E7569E</key>
 		<dict>
 			<key>primary</key>
