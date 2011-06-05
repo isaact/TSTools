@@ -52,7 +52,7 @@ A subclass of NSTextField that adds copy/paste/cut/select-all keyboard shortcuts
  3. Add $(BUILT_PRODUCTS_DIR) to the "User Header Search Paths" and set it to recursive
  4. Link you app binary to either libTSToolsOSX.a 
  5. In your class file include TSToolsOSX.h
- 6. Make sure to call `useTSToolsiOS();` before you use any of the category methods
+ 6. Make sure to call `useTSToolsOSX();` before you use any of the category methods
  
 ###Using the class files directly
 Download the source, and copy source files into your Xcode project. 
