@@ -55,8 +55,7 @@ A subclass of NSTextField that adds copy/paste/cut/select-all keyboard shortcuts
  6. Make sure to call `useTSToolsOSX();` before you use any of the category methods
  
 ###Using the class files directly
-Download the source, and copy source files into your Xcode project. 
-
+Download the source, and copy source files(in the src group) into your Xcode project. 
 **Note:** IF you are copying the files over to an iOS project, don't include TSSearchField and TSTextField files as they are AppKit only.
  
 ##Known Issues
