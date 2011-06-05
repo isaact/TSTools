@@ -5,30 +5,30 @@ A collection of small lightweight tools to use in your objective-c iOS or AppKit
 ###NSDate(TSTools)
 Some lazy tools to playing with NSDates. I use this mostly to get "Mail" style dates like "Today 1:35pm".
 
-   +(NSString *)friendlyDateFromString:(NSString *)theDate;
-   +(NSInteger)numberOfWeekdaysBetweenFromThisDate:(NSDate *)date toThisDate:(NSDate *)otherDate;
-   -(NSInteger)weekdaysToDateOrNil:(NSDate *)theDate;
-   -(BOOL)isToday;
-   -(BOOL)isYesterday;
-   -(NSString *)friendlyDate;
+	+(NSString *)friendlyDateFromString:(NSString *)theDate;
+	+(NSInteger)numberOfWeekdaysBetweenFromThisDate:(NSDate *)date toThisDate:(NSDate *)otherDate;
+	-(NSInteger)weekdaysToDateOrNil:(NSDate *)theDate;
+	-(BOOL)isToday;
+	-(BOOL)isYesterday;
+	-(NSString *)friendlyDate;
 
 ###NSString(TSTools)
 Some lazy tools to playing with NSStrings.
 
-   +(NSString *)cleanValue:(id)rawValue;   
-   +(NSString *)joinStrings :(NSArray *)strings glue:(NSString *)glue;
-   +(NSString *)joinStringsFromDictionary:(NSDictionary *)dict andTargetCols:(NSArray *)keys glue:(NSString *)glue;
-   +(NSString *)getDeviceType;
-   -(NSString *)MD5;
+	+(NSString *)cleanValue:(id)rawValue;
+	+(NSString *)joinStrings :(NSArray *)strings glue:(NSString *)glue;
+	+(NSString *)joinStringsFromDictionary:(NSDictionary *)dict andTargetCols:(NSArray *)keys glue:(NSString *)glue;
+	+(NSString *)getDeviceType;
+	-(NSString *)MD5;
 
 ###TSFileReader
 Allows reading text files one line at a time, very useful for processing large files text files. The last method allows you process the lines as they are read in.
 
 I use this class for doing mostly for reading large data export files and inserting them into a db efficiently while avoiding memory issues.
-   -(id) initWithFilePath:(NSString *)aPath;
-   -(NSString *) readLine;
-   -(NSString *) readTrimmedLine;
-   -(void) enumerateLinesUsingBlock:(void(^)(NSString*, BOOL *, float))block;
+	-(id) initWithFilePath:(NSString *)aPath;
+	-(NSString *) readLine;
+	-(NSString *) readTrimmedLine;
+	-(void) enumerateLinesUsingBlock:(void(^)(NSString*, BOOL *, float))block;
 
 ###TSSearchField
 A subclass of NSSearchField that adds copy/paste/cut/select-all keyboard shortcuts.
