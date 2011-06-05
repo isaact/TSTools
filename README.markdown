@@ -62,6 +62,4 @@ Download the source, and copy source files into your Xcode project.
  - None so far
  
 ##Attributions
-
-//See: http://stackoverflow.com/questions/1889164/get-nsdate-today-yesterday-this-week-last-week-this-month-last-month-vari
-
+**Note:** TODO
