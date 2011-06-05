@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TSTools' target in the 'TSTools' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif

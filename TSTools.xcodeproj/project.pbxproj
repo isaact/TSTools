@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36DA4CFA139BFD3300E7569E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DA4CF9139BFD3300E7569E /* Foundation.framework */; };
+		36DA4D13139BFDFD00E7569E /* NSDate+TSTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D04139BFDFD00E7569E /* NSDate+TSTools.h */; };
+		36DA4D14139BFDFD00E7569E /* NSDate+TSTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D04139BFDFD00E7569E /* NSDate+TSTools.h */; };
+		36DA4D15139BFDFD00E7569E /* NSDate+TSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D05139BFDFD00E7569E /* NSDate+TSTools.m */; };
+		36DA4D16139BFDFD00E7569E /* NSDate+TSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D05139BFDFD00E7569E /* NSDate+TSTools.m */; };
+		36DA4D17139BFDFD00E7569E /* NSString+TSTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D06139BFDFD00E7569E /* NSString+TSTools.h */; };
+		36DA4D18139BFDFD00E7569E /* NSString+TSTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D06139BFDFD00E7569E /* NSString+TSTools.h */; };
+		36DA4D19139BFDFD00E7569E /* NSString+TSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D07139BFDFD00E7569E /* NSString+TSTools.m */; };
+		36DA4D1A139BFDFD00E7569E /* NSString+TSTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D07139BFDFD00E7569E /* NSString+TSTools.m */; };
+		36DA4D1B139BFDFD00E7569E /* TSAppKitTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D08139BFDFD00E7569E /* TSAppKitTools.h */; settings = {ATTRIBUTES = (); }; };
+		36DA4D1D139BFDFD00E7569E /* TSAppKitTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D09139BFDFD00E7569E /* TSAppKitTools.m */; };
+		36DA4D1F139BFDFD00E7569E /* TSFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D0A139BFDFD00E7569E /* TSFileReader.h */; };
+		36DA4D20139BFDFD00E7569E /* TSFileReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D0A139BFDFD00E7569E /* TSFileReader.h */; };
+		36DA4D21139BFDFD00E7569E /* TSFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D0B139BFDFD00E7569E /* TSFileReader.m */; };
+		36DA4D22139BFDFD00E7569E /* TSFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D0B139BFDFD00E7569E /* TSFileReader.m */; };
+		36DA4D23139BFDFD00E7569E /* TSFoundationTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D0C139BFDFD00E7569E /* TSFoundationTools.h */; settings = {ATTRIBUTES = (); }; };
+		36DA4D24139BFDFD00E7569E /* TSFoundationTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D0C139BFDFD00E7569E /* TSFoundationTools.h */; settings = {ATTRIBUTES = (); }; };
+		36DA4D25139BFDFD00E7569E /* TSFoundationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D0D139BFDFD00E7569E /* TSFoundationTools.m */; };
+		36DA4D26139BFDFD00E7569E /* TSFoundationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D0D139BFDFD00E7569E /* TSFoundationTools.m */; };
+		36DA4D27139BFDFD00E7569E /* TSMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D0E139BFDFD00E7569E /* TSMacros.h */; };
+		36DA4D28139BFDFD00E7569E /* TSMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D0E139BFDFD00E7569E /* TSMacros.h */; };
+		36DA4D29139BFDFD00E7569E /* TSSearchField.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D0F139BFDFD00E7569E /* TSSearchField.h */; };
+		36DA4D2B139BFDFD00E7569E /* TSSearchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D10139BFDFD00E7569E /* TSSearchField.m */; };
+		36DA4D2D139BFDFD00E7569E /* TSTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D11139BFDFD00E7569E /* TSTextField.h */; };
+		36DA4D2F139BFDFD00E7569E /* TSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D12139BFDFD00E7569E /* TSTextField.m */; };
+		36DA4D31139BFFC600E7569E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DA4C88139BEB8400E7569E /* Cocoa.framework */; };
+		36DA4D4D139C022A00E7569E /* TSToolsiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D48139C022A00E7569E /* TSToolsiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36DA4D4F139C022A00E7569E /* TSToolsiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D49139C022A00E7569E /* TSToolsiOS.m */; };
+		36DA4D50139C022A00E7569E /* TSToolsOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 36DA4D4A139C022A00E7569E /* TSToolsOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36DA4D52139C022A00E7569E /* TSToolsOSX.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA4D4B139C022A00E7569E /* TSToolsOSX.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36DA4C88139BEB8400E7569E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		36DA4CE9139BFCF200E7569E /* libTSToolsOSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTSToolsOSX.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DA4CED139BFCF200E7569E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		36DA4CF0139BFCF200E7569E /* TSToolsOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSToolsOSX-Prefix.pch"; sourceTree = "<group>"; };
+		36DA4CF8139BFD3300E7569E /* libTSToolsiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTSToolsiOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DA4CF9139BFD3300E7569E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36DA4CFD139BFD3300E7569E /* TSToolsiOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSToolsiOS-Prefix.pch"; sourceTree = "<group>"; };
+		36DA4D04139BFDFD00E7569E /* NSDate+TSTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TSTools.h"; sourceTree = "<group>"; };
+		36DA4D05139BFDFD00E7569E /* NSDate+TSTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TSTools.m"; sourceTree = "<group>"; };
+		36DA4D06139BFDFD00E7569E /* NSString+TSTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TSTools.h"; sourceTree = "<group>"; };
+		36DA4D07139BFDFD00E7569E /* NSString+TSTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TSTools.m"; sourceTree = "<group>"; };
+		36DA4D08139BFDFD00E7569E /* TSAppKitTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSAppKitTools.h; sourceTree = "<group>"; };
+		36DA4D09139BFDFD00E7569E /* TSAppKitTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSAppKitTools.m; sourceTree = "<group>"; };
+		36DA4D0A139BFDFD00E7569E /* TSFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSFileReader.h; sourceTree = "<group>"; };
+		36DA4D0B139BFDFD00E7569E /* TSFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSFileReader.m; sourceTree = "<group>"; };
+		36DA4D0C139BFDFD00E7569E /* TSFoundationTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSFoundationTools.h; sourceTree = "<group>"; };
+		36DA4D0D139BFDFD00E7569E /* TSFoundationTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSFoundationTools.m; sourceTree = "<group>"; };
+		36DA4D0E139BFDFD00E7569E /* TSMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMacros.h; sourceTree = "<group>"; };
+		36DA4D0F139BFDFD00E7569E /* TSSearchField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSSearchField.h; sourceTree = "<group>"; };
+		36DA4D10139BFDFD00E7569E /* TSSearchField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSSearchField.m; sourceTree = "<group>"; };
+		36DA4D11139BFDFD00E7569E /* TSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTextField.h; sourceTree = "<group>"; };
+		36DA4D12139BFDFD00E7569E /* TSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTextField.m; sourceTree = "<group>"; };
+		36DA4D48139C022A00E7569E /* TSToolsiOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSToolsiOS.h; sourceTree = "<group>"; };
+		36DA4D49139C022A00E7569E /* TSToolsiOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSToolsiOS.m; sourceTree = "<group>"; };
+		36DA4D4A139C022A00E7569E /* TSToolsOSX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSToolsOSX.h; sourceTree = "<group>"; };
+		36DA4D4B139C022A00E7569E /* TSToolsOSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSToolsOSX.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36DA4CE6139BFCF200E7569E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA4D31139BFFC600E7569E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA4CF5139BFD3300E7569E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA4CFA139BFD3300E7569E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36DA4C24139BE59500E7569E = {
+			isa = PBXGroup;
+			children = (
+				36DA4D03139BFDE700E7569E /* src */,
+				36DA4CEE139BFCF200E7569E /* TSToolsOSX */,
+				36DA4CFB139BFD3300E7569E /* TSToolsiOS */,
+				36DA4C31139BE59500E7569E /* Frameworks */,
+				36DA4C30139BE59500E7569E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36DA4C30139BE59500E7569E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36DA4CE9139BFCF200E7569E /* libTSToolsOSX.a */,
+				36DA4CF8139BFD3300E7569E /* libTSToolsiOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36DA4C31139BE59500E7569E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36DA4C88139BEB8400E7569E /* Cocoa.framework */,
+				36DA4CED139BFCF200E7569E /* CoreData.framework */,
+				36DA4CF9139BFD3300E7569E /* Foundation.framework */,
+				36DA4C72139BE64D00E7569E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36DA4C72139BE64D00E7569E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		36DA4CEE139BFCF200E7569E /* TSToolsOSX */ = {
+			isa = PBXGroup;
+			children = (
+				36DA4CEF139BFCF200E7569E /* Supporting Files */,
+			);
+			path = TSToolsOSX;
+			sourceTree = "<group>";
+		};
+		36DA4CEF139BFCF200E7569E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36DA4CF0139BFCF200E7569E /* TSToolsOSX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36DA4CFB139BFD3300E7569E /* TSToolsiOS */ = {
+			isa = PBXGroup;
+			children = (
+				36DA4CFC139BFD3300E7569E /* Supporting Files */,
+			);
+			path = TSToolsiOS;
+			sourceTree = "<group>";
+		};
+		36DA4CFC139BFD3300E7569E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36DA4CFD139BFD3300E7569E /* TSToolsiOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36DA4D03139BFDE700E7569E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				36DA4D04139BFDFD00E7569E /* NSDate+TSTools.h */,
+				36DA4D05139BFDFD00E7569E /* NSDate+TSTools.m */,
+				36DA4D06139BFDFD00E7569E /* NSString+TSTools.h */,
+				36DA4D07139BFDFD00E7569E /* NSString+TSTools.m */,
+				36DA4D08139BFDFD00E7569E /* TSAppKitTools.h */,
+				36DA4D09139BFDFD00E7569E /* TSAppKitTools.m */,
+				36DA4D0A139BFDFD00E7569E /* TSFileReader.h */,
+				36DA4D0B139BFDFD00E7569E /* TSFileReader.m */,
+				36DA4D0C139BFDFD00E7569E /* TSFoundationTools.h */,
+				36DA4D0D139BFDFD00E7569E /* TSFoundationTools.m */,
+				36DA4D0E139BFDFD00E7569E /* TSMacros.h */,
+				36DA4D0F139BFDFD00E7569E /* TSSearchField.h */,
+				36DA4D10139BFDFD00E7569E /* TSSearchField.m */,
+				36DA4D11139BFDFD00E7569E /* TSTextField.h */,
+				36DA4D12139BFDFD00E7569E /* TSTextField.m */,
+				36DA4D48139C022A00E7569E /* TSToolsiOS.h */,
+				36DA4D49139C022A00E7569E /* TSToolsiOS.m */,
+				36DA4D4A139C022A00E7569E /* TSToolsOSX.h */,
+				36DA4D4B139C022A00E7569E /* TSToolsOSX.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36DA4CE7139BFCF200E7569E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA4D50139C022A00E7569E /* TSToolsOSX.h in Headers */,
+				36DA4D13139BFDFD00E7569E /* NSDate+TSTools.h in Headers */,
+				36DA4D1B139BFDFD00E7569E /* TSAppKitTools.h in Headers */,
+				36DA4D23139BFDFD00E7569E /* TSFoundationTools.h in Headers */,
+				36DA4D17139BFDFD00E7569E /* NSString+TSTools.h in Headers */,
+				36DA4D1F139BFDFD00E7569E /* TSFileReader.h in Headers */,
+				36DA4D27139BFDFD00E7569E /* TSMacros.h in Headers */,
+				36DA4D29139BFDFD00E7569E /* TSSearchField.h in Headers */,
+				36DA4D2D139BFDFD00E7569E /* TSTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA4CF6139BFD3300E7569E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA4D4D139C022A00E7569E /* TSToolsiOS.h in Headers */,
+				36DA4D24139BFDFD00E7569E /* TSFoundationTools.h in Headers */,
+				36DA4D14139BFDFD00E7569E /* NSDate+TSTools.h in Headers */,
+				36DA4D18139BFDFD00E7569E /* NSString+TSTools.h in Headers */,
+				36DA4D20139BFDFD00E7569E /* TSFileReader.h in Headers */,
+				36DA4D28139BFDFD00E7569E /* TSMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		36DA4CE8139BFCF200E7569E /* TSToolsOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DA4CF1139BFCF200E7569E /* Build configuration list for PBXNativeTarget "TSToolsOSX" */;
+			buildPhases = (
+				36DA4CE5139BFCF200E7569E /* Sources */,
+				36DA4CE6139BFCF200E7569E /* Frameworks */,
+				36DA4CE7139BFCF200E7569E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSToolsOSX;
+			productName = TSToolsOSX;
+			productReference = 36DA4CE9139BFCF200E7569E /* libTSToolsOSX.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		36DA4CF7139BFD3300E7569E /* TSToolsiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36DA4CFE139BFD3300E7569E /* Build configuration list for PBXNativeTarget "TSToolsiOS" */;
+			buildPhases = (
+				36DA4CF4139BFD3300E7569E /* Sources */,
+				36DA4CF5139BFD3300E7569E /* Frameworks */,
+				36DA4CF6139BFD3300E7569E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSToolsiOS;
+			productName = TSToolsiOS;
+			productReference = 36DA4CF8139BFD3300E7569E /* libTSToolsiOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36DA4C26139BE59500E7569E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Ticklespace.com;
+			};
+			buildConfigurationList = 36DA4C29139BE59500E7569E /* Build configuration list for PBXProject "TSTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36DA4C24139BE59500E7569E;
+			productRefGroup = 36DA4C30139BE59500E7569E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36DA4CE8139BFCF200E7569E /* TSToolsOSX */,
+				36DA4CF7139BFD3300E7569E /* TSToolsiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36DA4CE5139BFCF200E7569E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA4D15139BFDFD00E7569E /* NSDate+TSTools.m in Sources */,
+				36DA4D19139BFDFD00E7569E /* NSString+TSTools.m in Sources */,
+				36DA4D1D139BFDFD00E7569E /* TSAppKitTools.m in Sources */,
+				36DA4D21139BFDFD00E7569E /* TSFileReader.m in Sources */,
+				36DA4D25139BFDFD00E7569E /* TSFoundationTools.m in Sources */,
+				36DA4D2B139BFDFD00E7569E /* TSSearchField.m in Sources */,
+				36DA4D2F139BFDFD00E7569E /* TSTextField.m in Sources */,
+				36DA4D52139C022A00E7569E /* TSToolsOSX.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36DA4CF4139BFD3300E7569E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36DA4D16139BFDFD00E7569E /* NSDate+TSTools.m in Sources */,
+				36DA4D1A139BFDFD00E7569E /* NSString+TSTools.m in Sources */,
+				36DA4D22139BFDFD00E7569E /* TSFileReader.m in Sources */,
+				36DA4D26139BFDFD00E7569E /* TSFoundationTools.m in Sources */,
+				36DA4D4F139C022A00E7569E /* TSToolsiOS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		36DA4C37139BE59500E7569E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36DA4C38139BE59500E7569E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		36DA4CF2139BFCF200E7569E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSToolsOSX/TSToolsOSX-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		36DA4CF3139BFCF200E7569E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSToolsOSX/TSToolsOSX-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		36DA4CFF139BFD3300E7569E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = "$(BUILT_PRODUCTS_DIR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSToolsiOS/TSToolsiOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		36DA4D00139BFD3300E7569E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = "$(BUILT_PRODUCTS_DIR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSToolsiOS/TSToolsiOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36DA4C29139BE59500E7569E /* Build configuration list for PBXProject "TSTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DA4C37139BE59500E7569E /* Debug */,
+				36DA4C38139BE59500E7569E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36DA4CF1139BFCF200E7569E /* Build configuration list for PBXNativeTarget "TSToolsOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DA4CF2139BFCF200E7569E /* Debug */,
+				36DA4CF3139BFCF200E7569E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36DA4CFE139BFD3300E7569E /* Build configuration list for PBXNativeTarget "TSToolsiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36DA4CFF139BFD3300E7569E /* Debug */,
+				36DA4D00139BFD3300E7569E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36DA4C26139BE59500E7569E /* Project object */;
+}
