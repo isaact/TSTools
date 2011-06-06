@@ -1,3 +1,5 @@
+TSTools
+========
 A collection of small lightweight tools to use in your objective-c iOS or AppKit applications. These tools are useful for working with dates, strings, large text file processing. There are also subclasses of NSTextField & NSSearchField that add the common keyboard behaviours of cut, copy, paste, select-all  and undo.
 
 The Tools
@@ -28,7 +30,7 @@ TSFileReader
 ---------------
 Allows reading text files one line at a time, very useful for processing large files text files.
 
-The last method allows you process the lines as they are read in. I use this class for doing mostly for reading large data export files and inserting them into a db efficiently while avoiding memory issues.
+The last method allows you process the lines as they are read in. I use this class for mostly for reading large data export files and inserting them into a db efficiently while avoiding memory issues.
 
 	-(id) initWithFilePath:(NSString *)aPath;
 	-(NSString *) readLine;
