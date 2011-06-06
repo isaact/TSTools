@@ -22,9 +22,9 @@ Some lazy tools to playing with NSStrings.
 	-(NSString *)MD5;
 
 ###TSFileReader
-Allows reading text files one line at a time, very useful for processing large files text files. The last method allows you process the lines as they are read in.
+Allows reading text files one line at a time, very useful for processing large files text files.
 
-I use this class for doing mostly for reading large data export files and inserting them into a db efficiently while avoiding memory issues.
+The last method allows you process the lines as they are read in. I use this class for doing mostly for reading large data export files and inserting them into a db efficiently while avoiding memory issues.
 
 	-(id) initWithFilePath:(NSString *)aPath;
 	-(NSString *) readLine;
