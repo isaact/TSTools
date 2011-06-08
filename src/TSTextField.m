@@ -8,6 +8,10 @@
 
 #import "TSTextField.h"
 
+void useTSTextField(){
+  
+}
+
 @implementation TSTextField
 
 - (BOOL)performKeyEquivalent:(NSEvent *)event {

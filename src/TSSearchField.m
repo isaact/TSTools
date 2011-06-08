@@ -9,6 +9,10 @@
 
 #import "TSSearchField.h"
 
+void useTSSearchField(){
+  
+}
+
 @implementation TSSearchField
 
 - (BOOL)performKeyEquivalent:(NSEvent *)event {

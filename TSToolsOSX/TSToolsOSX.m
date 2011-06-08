@@ -15,6 +15,8 @@
 void useTSToolsOSX(){
   useTSDateTools();
   useTSStringTools();  
+  useTSTextField();
+  useTSSearchField();
   //Do nothing, just used for linking in categories
 }
 

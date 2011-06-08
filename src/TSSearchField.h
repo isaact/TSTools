@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <Cocoa/Cocoa.h>
 
+void useTSSearchField();
+
 @interface TSSearchField : NSSearchField {    
 }
 
