@@ -11,12 +11,14 @@
 #import "TSFileReader.h"
 #import "NSDate+TSTools.h"
 #import "NSString+TSTools.h"
+#import "NSNull+TSTools.h"
 
 void useTSToolsOSX(){
   useTSDateTools();
   useTSStringTools();  
   useTSTextField();
   useTSSearchField();
+  useNSNullTools();
   //Do nothing, just used for linking in categories
 }
 

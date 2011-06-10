@@ -13,6 +13,7 @@
 void useTSStringTools(){
   //Do nothing
 }
+
 @implementation NSString(TSTools)
 
 #pragma mark -

@@ -12,6 +12,7 @@
 #import "TSFileReader.h"
 #import "NSDate+TSTools.h"
 #import "NSString+TSTools.h"
+#import "NSNull+TSTools.h"
 
 void useTSToolsOSX();
 @interface NSObject (TSToolsOSX)

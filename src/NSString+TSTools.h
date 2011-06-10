@@ -18,3 +18,4 @@ void useTSStringTools();
 -(NSString *) MD5;
 
 @end
+

@@ -9,10 +9,12 @@
 #import "TSToolsiOS.h"
 #import "NSDate+TSTools.h"
 #import "NSString+TSTools.h"
+#import "NSNull+TSTools.h"
 
 void useTSToolsiOS(){
   useTSDateTools();
   useTSStringTools();
+  useNSNullTools();
   //Do nothing, just used for linking in categories
 }
 
