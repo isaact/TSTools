@@ -26,6 +26,13 @@ Some lazy tools to playing with NSStrings.
 	+(NSString *)getDeviceType;
 	-(NSString *)MD5;
 
+NSNull(TSTools)
+------------------
+This usually happens when export file from the DB contains null values. I usually export the data in JSON format which preserves the null and where they end up as NSNull in NSArray or NSDictionary objects when the JSON string gets parsed. It can be annoying dealing with NSNulls inside dictionary objects. In some cases you want a NULL to be treated as 0.
+
+	-(float)floatValue:(id)rawValue;
+	-(intValue)joinStrings :(NSArray *)strings glue:(NSString *)glue;
+
 TSFileReader
 ---------------
 Allows reading text files one line at a time, very useful for processing large files text files.
