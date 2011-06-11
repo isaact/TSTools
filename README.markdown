@@ -28,7 +28,7 @@ Some lazy tools to playing with NSStrings.
 
 NSNull(TSTools)
 ------------------
-This usually happens when export file from the DB contains null values. I usually export the data in JSON format which preserves the null and where they end up as NSNull in NSArray or NSDictionary objects when the JSON string gets parsed. It can be annoying dealing with NSNulls inside dictionary objects. In some cases you want a NULL to be treated as 0.
+In some cases you want a NULL to be treated as 0. Both methods below return 0 and avoid the undefined selector exceptions raised.
 
 	-(float)floatValue:(id)rawValue;
 	-(intValue)joinStrings :(NSArray *)strings glue:(NSString *)glue;
