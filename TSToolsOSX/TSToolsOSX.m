@@ -19,6 +19,7 @@ void useTSToolsOSX(){
   useTSTextField();
   useTSSearchField();
   useNSNullTools();
+  useTSStringTools();
   //Do nothing, just used for linking in categories
 }
 

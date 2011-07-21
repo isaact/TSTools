@@ -15,7 +15,8 @@ void useTSStringTools();
 +(NSString *)joinStrings :(NSArray *)strings glue:(NSString *)glue;
 +(NSString *)joinStringsFromDictionary:(NSDictionary *)dict andTargetCols:(NSArray *)keys glue:(NSString *)glue;
 +(NSString *)getDeviceType;
--(NSString *) MD5;
+-(NSString *)MD5;
+-(NSString *)urlEncode;
 
 @end
 
