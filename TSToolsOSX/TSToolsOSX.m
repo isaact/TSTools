@@ -12,7 +12,7 @@
 #import "NSDate+TSTools.h"
 #import "NSString+TSTools.h"
 #import "NSNull+TSTools.h"
-
+#import "NSMutableDictionary+TSTools.h"
 void useTSToolsOSX(){
   useTSDateTools();
   useTSStringTools();  
@@ -20,6 +20,7 @@ void useTSToolsOSX(){
   useTSSearchField();
   useNSNullTools();
   useTSStringTools();
+  useTSDictionaryTools();
   //Do nothing, just used for linking in categories
 }
 

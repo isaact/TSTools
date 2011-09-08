@@ -13,6 +13,7 @@
 #import "NSDate+TSTools.h"
 #import "NSString+TSTools.h"
 #import "NSNull+TSTools.h"
+#import "NSMutableDictionary+TSTools.h"
 
 void useTSToolsOSX();
 @interface NSObject (TSToolsOSX)
